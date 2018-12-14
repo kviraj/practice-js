@@ -1,0 +1,22 @@
+{
+  "name": "virajk",
+  "version": "0.0.1",
+  "description": "pdf",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kviraj/practice-js.git"
+  },
+  "author": "kviraj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kviraj/practice-js/issues"
+  },
+  "homepage": "https://github.com/kviraj/practice-js#readme",
+  "dependencies": {
+    "html-pdf": "^2.2.0"
+  }
+}
