@@ -9,7 +9,7 @@ void main()
     float inches;
     float centimeters;
 
-    printf("Enter the distance ");
+    printf("Enter the distance in kilometer ");
     scanf("%f",&km);
 
     meter=(km*1000);
