@@ -7,22 +7,31 @@ int main()
     float men,women,total=80000,totalit,litmen,litwomen,illit,illitwomen;
     float illitmen;
     
-    men=(52/100)*total;
-        printf("illiterate men: %f\n",men);
+    men=(52/100.0)*total;
+    printf("Men: %f\n",men);
 
-    // women=total-men;
-    // totalit=(48/100)*80000;
-    // litmen=(35/totalit)*80000;
-    // litwomen=totalit-litmen;
-    // illit=total-totalit;
-    // illitmen=men-litmen;
-    // // illitwomen=women-litwomen;
+    women=total-men;
+    printf("Women: %f\n",women);
 
-    // // printf("output %d/n",litmen);
-    // printf("illiterate men: %f\n",illitmen);
+    totalit=(48.0/100.0)*80000;
+    printf("Totalit: %f\n",totalit);
+
+    litmen=(35.0/100)*80000;
+    printf("litmen: %f\n",litmen);
+
+    litwomen=totalit-litmen;
+    printf("litwomen: %f\n",litwomen);
+
+    illit=total-totalit;
+    printf("illit: %f\n",illit);
+
+    illitmen=men-litmen;
+    printf("IllitMen: %f\n",illitmen);
+
+    illitwomen=women-litwomen;
+    printf("illiterate women: %f\n",illitwomen);
 
     return 0;
-
 }
 
 
