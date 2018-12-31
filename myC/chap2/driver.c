@@ -6,18 +6,18 @@ int main()
     printf("Enter marital status,sex,age\n");
     scanf("%c%c%d",&mu,&mf,&age);
 
-    if(mu==M)
+    if(mu=='M')
     {
         printf("Driver is insured\n");
     }
     else
     {
         
-            if(mf==B && age>30)
+            if(mf=='B' && age>30)
             {
                 printf("Male driver is insured\n");
             }
-            else(mf==G && age>25);
+            else(mf=='G' && age>25);
             {
                 printf("Female driver got insured\n");
             }   
