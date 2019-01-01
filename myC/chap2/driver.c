@@ -4,7 +4,7 @@ int main()
     char mu,mf,M,U,B,G;
     int age;
     printf("Enter marital status,sex,age\n");
-    scanf("%c%c%d",&mu,&mf,&age);
+    scanf("%c %c%d",&mu,&mf,&age);
 
     if(mu=='M')
     {
@@ -17,10 +17,11 @@ int main()
             {
                 printf("Male driver is insured\n");
             }
-            else(mf=='G' && age>25);
+            else
             {
                 printf("Female driver got insured\n");
-            }   
+            }
+           
         
     }
 return 0;
