@@ -4,9 +4,19 @@ int main()
     int a,b,absolute;
     printf("Enter two numbers");
     scanf("%d%d",&a,&b);
-    absolute=b-a;
-    printf("Absolute value is %d",absolute);
-   
+    
 
+    if(b>a)
+    {
+        absolute=b-a;
+        printf("Absolute value is %d",absolute);
+    }
+
+    else
+    {
+        absolute=a-b;
+        printf("Absolute value is %d",absolute);
+    }
+   
    return 0;
 }    
