@@ -11,7 +11,7 @@ int main()
         {
             overtime=hr-40;
             mn=overtime*12;
-            printf("%d\n",mn);
+            printf("Rs :%d\n",mn);
         }
     else
         {

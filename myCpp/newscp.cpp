@@ -12,4 +12,4 @@ int main()
     }
     cout<<endl<<i<<""<<::i<<endl;
     return 0;
-}    
+}    f
