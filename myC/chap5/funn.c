@@ -3,7 +3,7 @@
 #include<stdio.h>
 int calsum(int x,int y,int z);
 int main()
-{
+{          
     int a,b,c,sum;
     printf("Enter 3 numbers");
     scanf("%d%d%d",&a,&b,&c);

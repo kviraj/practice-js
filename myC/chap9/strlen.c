@@ -2,7 +2,7 @@
 #include<string.h>
 int main()
 {
-    char length[]="sanket";
+    char length[]="viraj";
     int total;
     
  //   printf("Enter a string");

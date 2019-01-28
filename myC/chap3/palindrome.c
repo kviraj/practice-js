@@ -19,7 +19,7 @@ pal = num;
     {
         printf("The number is palindrome");
     }
-    else()
+    else
     {
         printf("Not palindrome");
     }
