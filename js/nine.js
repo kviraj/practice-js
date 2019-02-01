@@ -3,5 +3,5 @@ var ourData=ourArray[0];
 
 var myArray=[50,60,70];
 
-var myData=myArray[1];
+var myData=myArray[0];//whatever value is  there it is array
 console.log(myData);

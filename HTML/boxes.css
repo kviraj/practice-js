@@ -1,0 +1,107 @@
+.TopLeft
+{
+    border: 2px dotted red;
+    position:absolute;
+    height:100px ;
+    width: 100px;
+    left: 0;
+    top: 0;
+}
+
+.TopRight
+{
+    border: 2px dotted red;
+    position:absolute;
+    height:100px ;
+    width: 100px;
+    right: 0;
+    top: 0;
+}
+
+.BottomLeft
+{
+    border: 2px dotted red;
+    position:absolute;
+    height:100px ;
+    width: 100px;
+    bottom: 0;
+    left: 0;
+}
+
+.BottomRight
+{
+    border: 2px dotted red;
+    position:absolute;
+    height:100px ;
+    width: 100px;
+    bottom: 0;
+    right: 0;
+}
+
+.MostLeft
+{
+    border: 2px solid green;
+    position:absolute;
+    height:100px ;
+    width: 100px;
+    /* top: 280px; */
+    left: 0;
+}
+
+.MostRight
+{
+    border: 2px solid green;
+    position:absolute;
+    height:100px ;
+    width: 100px;
+   
+    right: 0;
+}
+
+.center
+{
+    border: 2px solid blue;
+    height:100px ;
+    width: 100px;
+    margin: 30% auto;
+}
+
+.inLeft
+{
+    border: 2px solid orangered;
+    height:100px ;
+    width: 100px;
+    position: absolute;
+    top: 7.5cm;
+    left: 8cm;
+}
+
+.inRight
+{
+    border: 2px solid orangered;
+    height:100px ;
+    width: 100px;
+    position: absolute;
+    top: 7.5cm;
+    right: 8cm;
+}
+
+.inTop
+{
+    border: 2px solid orangered;
+    height:100px ;
+    width: 100px;
+    position: absolute;
+    top: 4cm;
+    left: 11.2cm;
+}
+
+.inBottom
+{
+    border: 2px solid orangered;
+    height:100px ;
+    width: 100px;
+    position: absolute;
+    bottom: 4cm;
+    left: 11.2cm;
+}
