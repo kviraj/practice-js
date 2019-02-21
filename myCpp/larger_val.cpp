@@ -10,5 +10,10 @@ int main()
     {
         cout<<"Greater number is"<<no1<<"\n";
     }
+    else
+    {
+        cout<<"Greater number is"<<no2<<"\n";
+    }
+    return 0;
 }
 
