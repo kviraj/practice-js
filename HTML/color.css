@@ -1,0 +1,76 @@
+.main
+{
+    height: 400px;
+    width: 330px;
+    border: 2px solid #e6e6e6;
+    margin-left: 230px;
+    margin-top: 100px;
+    padding: 10%
+    
+}   
+/* .tweet
+{
+    padding: 105px;
+} */
+.name
+{
+    width: 70%;
+    padding: 8px 36px; 
+    border: 1px solid #dbdbdb;
+   border-spacing: 2px;
+   display: inline-block;
+   
+
+}
+.btn
+{
+    border: 1px solid skyblue;
+    width: 90%;
+    height: 1cm;
+    background-color: #3897f0;
+    cursor: pointer;
+    box-shadow: none;
+}
+.btn:hover
+{
+    box-shadow: 3px  3px 10px #3897f0;
+}
+.for
+{
+    display: inline-block;
+    position: relative;
+}
+a
+{
+text-decoration: none;
+
+}
+a:hover
+{
+    text-decoration: underline;
+}
+
+ .rss
+{
+    background-color: none;
+}
+.rss:hover{ background-color: gold}
+.rss:active{ background-color: green}
+
+
+.sub-content {
+    width: 250px;
+    height: 10%;
+    margin: 10px auto;
+    border: 1px solid #e6e6e6;
+    padding: 20px 50px;
+    background-color: #fff;
+  }
+  
+    .s-part {
+    text-align: center;
+    font-family: 'Overpass Mono', monospace;
+    word-spacing: -3px;
+    letter-spacing: -2px;
+    
+  } 

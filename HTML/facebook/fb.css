@@ -1,0 +1,275 @@
+.login
+{
+    background-color: #3b5998;
+    height: 100px;
+    width: 950px;
+    
+    /* display:inline-block; */
+}
+h1{
+    color: #fff;
+    font-size: 38px;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 0.05px;
+    padding: 30px 0;
+    display:inline-block;
+
+}
+
+.right
+{
+    float: right;
+
+}
+.username
+{
+    width: 142px;
+    padding: 3px;
+    /* margin: 35px; */
+}
+
+
+  .hy{
+    color: #9daccb;
+    font-size: 11px;
+    width: 164px;
+    cursor: pointer;
+  }
+  .hy:hover
+  {
+      text-decoration:underline;
+  }
+
+  .r1{
+    color: #fff;
+    font-size: 11px;
+    width: 164px;
+    cursor: pointer;
+}
+  
+.btn
+{
+    height: 18px;
+    width: 45px;
+    font-size: 11px;
+    background-color: #5b72a9;
+}
+.color
+{
+    background-color: bisque;
+}
+.content
+{
+     width: 409px;
+    height: 72px;
+    padding: 42px 0 24px;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #333;
+    display: inline-block;
+    /* float: left; */
+}
+
+.content2
+{
+    display: inline-block;
+    width:565px;
+}
+.l1
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 50px;
+    /* float: left; */
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: middle;
+     
+}
+
+.l2
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 50px;
+    /* float: left; */
+    font-size: 16px;
+
+}
+
+.l3
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 50px;
+    /* float: left; */
+    font-size: 16px;
+
+     
+}
+b{
+    font-size: 15px;
+    color: #666;
+    margin-left: 8px;
+}
+o{
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.signup
+{
+    float: right;
+    
+}
+p{
+    color: black;
+    font-size: 38px;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 0.05px;
+    padding: 5px 0;
+    display:inline-block;
+    margin-right: 130px;
+
+}
+.free
+{
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+
+.span1{ font-size: 16px;
+    font-weight: bold;
+    color: #333;
+
+}
+.span2{
+    font-size: 13px;
+    color: #666;
+    margin-left: 10px;
+}
+.name
+{
+    display: inline-block;
+    width: 417px;
+    margin-top: 20px;
+
+}
+
+.n1
+{
+    width: 172px;
+    display: inline-block;
+    padding: 8px 10px;
+    font-size: 18px;
+    height: 10px;
+}
+.n2
+{
+    width: 172px;
+    padding: 8px 10px;
+    font-size: 18px;
+    height: 10px;
+}
+.number{
+    font-size: 18px;
+    width: 399px;
+    margin-top: 10px;
+    height: 10px;
+    
+}
+.no
+{
+    width: 400px;
+    height: 25px;
+    font-size: 18px;
+    
+}
+.no1{
+    width: 400px;
+    height: 25px;
+    font-size: 18px;
+    margin-top: 40px;
+}
+.pwd
+{
+    width: 400px;
+    height: 25px;
+    font-size: 18px;
+    margin-top: 13px;
+}
+.bday
+{
+    font-size: 18px;
+    color:#141823;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.why
+{
+    font-size: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #3b5998;
+    display:inline-block;
+
+}
+.why:hover
+{
+    text-decoration:underline;
+}
+
+.days{
+    display:inline-block;
+}
+.mf
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.link
+{
+    color: #3b5998;
+    cursor: pointer;
+    display: inline-block;
+}
+.policy
+{
+    font-size: 11px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.link1
+{
+    color: #3b5998;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13px;
+}
+.create
+{
+    font-size: 13px;   
+}
+.green
+{
+    font-size: 19px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #fff;
+    min-width: 194px;
+    padding: 7px 20px;
+    text-align: center;
+    background-color: #578843;
+    box-shadow: 1px 1px 1px #2ac444;
+    margin-top: 10px;
+}
+body{
+    background-color: #edf0f5;
+}
+.line
+{
+    border-top: 0.5px solid rgb(133, 130, 130);
+    margin-bottom: 10px;
+}

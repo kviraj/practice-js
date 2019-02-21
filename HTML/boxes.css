@@ -93,7 +93,7 @@
     width: 100px;
     position: absolute;
     top: 4cm;
-    left: 11.2cm;
+    left: 11cm;
 }
 
 .inBottom
@@ -104,4 +104,156 @@
     position: absolute;
     bottom: 4cm;
     left: 11.2cm;
+}
+
+h3
+{
+    color: red;
+}
+a:hover{color: gold}
+a:active{color: green}
+a:visited{color: blueviolet}
+
+body{
+    background-color: yellowgreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p,blockquote
+{
+    font-size: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1cm;
+}
+
+header
+{
+    display: block;
+    padding: 0px 0px 70px 0px;
+}
+
+#websiteLogo{ float: left;}
+
+#horzNav{
+    display: block;
+    padding: 40px 40px 40px 40px;
+    background-color: maroon;
+
+}
+
+#horzNav a{
+    text-decoration:none;
+    padding: 12px 12px 12px 12px;
+    background-color: skyblue;
+
+}
+.pageup
+{
+    text-align: right;
+}
+
+.ul
+{
+    list-style-image: url('sqpurple.gif');
+}
+
+table,td,th
+{
+    border: 2px solid brown;
+    border-collapse: collapse; 
+    padding: 12px;
+    border-spacing: 5px;
+    letter-spacing: 2px;
+}
+
+th
+{
+ background-color: aqua;
+}
+td{
+    background-color: bisque;
+}
+
+.c
+{
+    background-color: rgb(205, 50, 197);
+}
+
+.hide-mobile
+{
+    display: inline;
+}
+
+.search
+{
+    height: 3cm;
+    width: 3cm;
+    /* if you want to adjust the height and width of searchbar then
+    give that class in inputbar */
+}
+
+.pad
+{
+    padding: 0cm 3.5cm;
+}
+.right{
+    margin-left: 290px;
+}
+.login{
+    margin-left: 290px;
+
+}
+.bet
+{
+    background-color: rgb(61, 167, 253);
+    height: 500px;
+    width: 700px;
+}
+
+.incolor
+{
+   text-align: center;
+   padding-top: 150px;
+
+}
+.mid
+{
+margin-left:8cm ;
+}
+
+.up {
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #000;
+    width: 0;
+    height: 0;
+  }
+
+ .down
+ {
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px solid black;
+    width: 0;
+    height: 0;
+} 
+
+.lefttri
+{
+    border-left: 100px solid black;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    width: 0;
+    height: 0;
+
+}
+
+.pytha
+{
+    /* border-left: 100px solid ; */
+    border-bottom: 110px solid #000;
+    border-right: 100px solid transparent;
+    width: 0;
+    height: 0;
+
 }
