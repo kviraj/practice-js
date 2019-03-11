@@ -1,0 +1,27 @@
+.table,th,td{
+    border: 1px black solid;
+    border-collapse: collapse;
+}
+th{
+    color: rgb(0, 119, 255);
+    background-color: rgb(212, 233, 241);
+}
+.space{
+    text-align: center;
+}
+p{
+    font-size: 12px;
+}
+strong{
+            
+    margin-left: 330px;
+}
+.sign{
+    padding: 35px;
+}
+.sign1{
+    padding: 20px;
+}
+.color{
+    background-color: rgb(212, 233, 241);
+}

@@ -1,0 +1,16 @@
+.igl{
+    color: coral;
+    font-size: 4rem;
+}
+
+.font{
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.9rem;
+}
+p{
+    font-size: 1.2rem;
+}
+
+.height{
+   min-height: 100vh;
+}
