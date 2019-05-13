@@ -1,0 +1,13 @@
+.card{
+    width: 320px;
+    height: 50vh;
+    box-shadow: 4px 6px 8px 3px #847777;
+}
+.ok{
+    color: white;
+    display: none;
+}
+.notok{
+    color: white;
+    display: none;
+}

@@ -1,0 +1,112 @@
+body{
+    height: 640px;
+    background-image: linear-gradient(to bottom right, #4a748c, #52c9a1);
+}
+.r1{
+    width: 50px;
+    height: 50px;
+    margin: 50px;
+    margin-top: 150px;
+    margin-left: 125px;
+    border-radius:50px;
+    background-color: #6799a0;
+    display: inline-block;
+     
+}
+.r2{
+    width: 30px;
+    height: 30px;
+    margin: 30px;
+    margin-bottom: -150px;
+    margin-left: -40px;
+    border-radius:30px;
+    background-color: #68aea6;
+    display: inline-block;
+}
+.r3{
+    width: 120px;
+    height: 120px;
+    margin: 120px;
+    margin-bottom: -340px;
+    margin-left: 70px;
+    border-radius:120px;
+    background-color: #6abda9;
+    display: inline-block;
+     
+}
+.r4{
+    width: 40px;
+    height: 40px;
+    margin: 40px;
+    margin-bottom: -10px;
+    margin-left: -130px;
+    border-radius:40px;
+    background-color: #7bb1b3;
+    display: inline-block;
+     
+}
+.r5{
+    width: 30px;
+    height: 30px;
+    margin: 30px;
+    margin-bottom: -70px;
+    margin-left: 500px;
+    border-radius:30px;
+    background-color: #6ab8aa;
+    display: inline-block;
+     
+}
+.r6{
+    width: 80px;
+    height: 80px;
+    margin: 80px;
+    margin-bottom: -160px;
+    margin-left: 250px;
+    border-radius:80px;
+    background-color: #73c8b1;
+    display: inline-block;
+     
+}
+input{
+    width: 250px;
+    height: 30px;
+    text-align: center;
+    margin: 5px 384px;
+    font-family: sans-serif;
+    border-radius: 3px;
+}
+.sign{
+    text-align: center;
+    color:white;
+    font-family:sans-serif;
+    margin-top: -50px;
+    font-size: 40px;
+}
+.use{
+    outline: none;
+    background-color:#73b6ad;
+    border: 2px solid #96cdc2;
+    color: white;
+}
+
+.pwd{
+    outline: none;
+    background-color:#73b6ad;
+    border: 2px solid #96cdc2;
+    color: white;
+}
+.logo{
+    border:2px solid white; 
+    outline: none;
+    cursor: pointer;
+
+}
+.rights{
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    font-family:sans-serif;
+}
+::placeholder {
+    color: white;
+}

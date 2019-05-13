@@ -1,0 +1,50 @@
+.fb{
+    font-size: 45px;
+	margin-right: 4px;
+	word-spacing: 14px;
+}
+h6{
+    text-decoration: none;
+    cursor: pointer;
+}
+h6:hover{
+    text-decoration: underline;
+}
+.butt{
+    background-color: #294175;
+    margin-top: 25px;
+    color: white;
+    border: 1px solid #294175;
+    cursor: pointer;
+}
+.butt:hover{
+    background-color: #3b5998;
+}
+.coll{
+    background-color: #3b5998;
+
+}
+input{
+    width: 100%;
+}
+.read{
+    color: #0e385f;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 29px;
+    margin-top: 40px;
+    width: 450px;
+    word-spacing: -1px;
+}
+.sun{
+    height: 1cm;
+    width: 190px;
+    border-radius: 6px;
+    border: solid 1px #bbd4eb;
+}
+.sun1{
+    height: 1cm;
+    width: 100%;
+    border-radius: 6px;
+    border: solid 1px #bbd4eb;
+}

@@ -1,0 +1,35 @@
+
+html, body {
+	font-family: 'Play', sans-serif;
+	background: #2b2b2b;
+    overflow: hidden;
+}
+
+#info {
+	position: absolute;
+	left: 30%;
+	top: 25%;
+}
+
+#info {
+	background: transparent;
+	padding: 12px 10px;
+	margin-bottom: 1px;
+    color: #fff;
+    box-shadow: 0 0 3px 4px white;
+}
+.card{
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+.ok{
+    color: white;
+    display: none;
+}
+.notok{
+    color: white;
+    display: none;
+}
+input{
+    border-radius:5px;
+}

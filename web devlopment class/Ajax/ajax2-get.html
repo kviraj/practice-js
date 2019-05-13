@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ajax2 - text file</title>
+</head>
+
+<body>
+    <button id="button">Get text file</button>
+    <br>
+    <div id="text"></div>
+
+
+    <script>
+        // create event listner
+        document.getElementById('button').addEventListener('click', loadText);
+        function loadText() {
+            // create XHR object
+            var xhr = new XMLHttpRequest();
+            // OPEN = type, url/file, async
+            xhr.open('GET', 'ajax.txt', true);
+            console.log('READYSTATE: ', xhr.readyState);
+
+            //OPTIONAL = used for loader
+            xhr.onprogress = function() {
+                console.log('READYSTATE: ', xhr.readyState);
+            }
+            
+
+            xhr.onload = function () {
+                console.log('READYSTATE: ', xhr.readyState);
+                if (this.status == 200) {
+                    // console.log(this.responseText);
+                    document.getElementById('text').innerHTML = 
+                    this.responseText;
+                }else if(this.status == 404) {
+                    document.getElementById('text').innerHTML = 
+                    'Not found';
+                }
+            }
+             
+            xhr.onerror = function() {
+                console.log('Request error....');
+                
+            }
+
+
+
+            // xhr.onreadystatechange = function () {
+            //     console.log('READYSTATE: ', xhr.readyState);
+            //     if (this.readyState == 4 && this.status == 200) {
+            //         console.log(this.responseText);
+            //     }
+            // }
+
+            // send request
+            xhr.send();
+        }
+
+
+
+
+
+    //readystate values
+    //0: request not initializes
+    //1: sever connection established
+    //2: request recevived
+    //3: processing request
+    //4: request finished and response is ready
+
+
+    //HTTP statuses
+    //200: "ok"
+    //403: "forbidden"
+    //400: "not found"
+    </script>
+
+
+</body>
+
+</html>

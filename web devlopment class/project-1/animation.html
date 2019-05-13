@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+      .loader {
+          border: 3px solid transparent;
+          border-radius: 50%;
+          border-bottom: 3px solid #3498db;
+          width: 150px;
+          height: 150px;
+          margin: auto;
+          animation: spin 2s linear infinite 1s alternate;
+        }
+        @keyframes spin {
+              0% { transform: rotate(0deg); }
+             100% { transform: rotate(400deg); }
+        }
+        .loader1 {
+          border: 3px solid transparent;
+          border-radius: 50%;
+          border-bottom: 3px solid #3498db;
+          width: 130px;
+          height: 130px;
+          margin:7px;
+          animation: spin1 2s linear infinite 1s alternate;
+        }
+        @keyframes spin1 {
+              0% { transform: rotate(0deg); }
+             100% { transform: rotate(-75deg); }
+        }
+        .loader2 {
+          border: 3px solid transparent;
+          border-radius: 50%;
+          border-bottom: 3px solid #3498db;
+          width: 110px;
+          height: 110px;
+          margin:7px;
+          animation: spin2 2s linear infinite 1s alternate;
+        }
+        @keyframes spin2 {
+              0% { transform: rotate(0deg); }
+             100% { transform: rotate(-23deg); }
+        }
+        .loader3 {
+          border: 3px solid transparent;
+          border-radius: 50%;
+          border-bottom: 3px solid #3498db;
+          width: 90px;
+          height: 90px;
+          margin:7px;
+          animation: spin3 2s linear infinite alternate;
+        }
+        @keyframes spin3 {
+              0% { transform: rotate(0deg); }
+             100% { transform: rotate(12deg); }
+        }
+    </style>
+</head>
+<body>
+        <div class="loader">
+            <div class="loader1">
+                <div class="loader2">
+                    <div class="loader3"></div>
+                </div>
+            </div>
+        </div>
+</body>
+</html>

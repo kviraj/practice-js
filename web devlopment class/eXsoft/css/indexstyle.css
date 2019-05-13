@@ -1,0 +1,354 @@
+
+/* navbar */
+
+.dropdown-menu{
+    background-color:#5d63dc;
+    left: -300px;
+    min-width: 70rem;
+}
+.dropdown-item{
+    color: white;
+}
+.dropdown-item:hover{
+    color: #12c9c0;
+    background-color: transparent;
+}
+@media (max-width: 768px) {
+    .dropdown-menu{
+        min-width: 10rem;
+    }
+}
+
+/* banner */
+.poster{
+    background-color:#5d63dc;
+    border-bottom-left-radius: 100px;
+    height: 95vh; 
+}
+.hending{
+    margin-top:50px;
+}
+.btn{
+    border-radius: 40px;
+}
+.iphone{
+    margin-top:-35px;
+}
+.btn1{
+    background-color: white;
+    border-color: gray;
+    color: black;
+    height: 8vh;
+}
+.btn1:hover{
+    background-color: blue;
+    border-color: transparent;
+    color: white;
+}
+.btn2{
+    background-color: #12c9c0;
+    border-color: transparent;
+    color: white;
+    height: 8vh;
+}
+.btn2:hover{
+    background-color: white;
+    border-color: black;
+    color: black;
+}
+
+/* our services */
+.box{
+    height: 55vh;
+    width: 40vh;
+    box-shadow: 0px 5px 6px 4px #eeecec;
+}
+
+/* about our company */
+.page{
+    background-color:#5d63dc;
+    height: 70vh;
+    
+}
+@media (max-width: 768px) {
+    .page{
+      height: 100vh; 
+    }
+}
+.play{
+    width: 80px;
+    height: 80px;
+}
+.play1{
+    margin-top: 30px;
+}
+.page0{
+    margin-top: 90px;
+    height: 30vh;
+    box-shadow: 0px 4px 3px 1px #cacbce;
+}
+
+/* custem software devlopment */
+.page1{
+    margin-top: 150px;
+}
+.iphone1{
+    margin-left: -145px;
+}
+.iphone2{
+    margin-left: -375px;
+}
+@media (max-width: 768px) {
+    .page1{
+      margin-top: 300px; 
+    }
+}
+.btn3{
+    background-color: #12c9c0;
+    border-color: transparent;
+    color: white;
+    height: 8vh;
+}
+.btn3:hover{
+    background-color: white;
+    border-color: black;
+    color: black;
+}
+.btn4{
+    background-color: white;
+    border-color: gray;
+    color: gray;
+    height: 8vh;
+}
+.btn4:hover{
+    background-color: blue;
+    border-color: transparent;
+    color: white;
+}
+
+/* pricing plans */
+.page2{
+    background-color:#5d63dc;
+    height: 120vh;
+   
+}
+@media (max-width: 768px) {
+    .page2{
+      height: 260vh; 
+    }
+}
+.heading1{
+    margin: auto;
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 70px;
+    height: 34px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #848deb;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #848deb;
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(37px);
+  }
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }  
+.card0{
+    height: 70vh;
+    border-top: 10px solid #12c9c0;
+}
+.card1{
+    margin-top: -25px;
+    height: 80vh;
+}
+.heading2 {
+    color: #12c9c0;
+}
+.btn5{
+    background-color: white;
+    border-color: #ced1d1;
+    color: gray;
+    height: 8vh;
+}
+.btn5:hover{
+    background-color: blue;
+    border-color: transparent;
+    color: white;
+}
+.btn6{
+    background-color: #12c9c0;
+    border-color: transparent;
+    color: white;
+    height: 8vh;
+}
+.btn6:hover{
+    background-color: white;
+    border-color: black;
+    color: black;
+}
+
+/* Frequently Asked Questions */
+
+/* investor */
+.page3{
+    background-color:  #f9f8f8;
+     height:40vh;
+     
+}
+.investor{
+    opacity: 0.3;
+    margin-top: 100px;
+}
+
+/*  AWARD-WINNING SOFTWARE */
+.btn7{
+    color: black;
+    border-color: lightgray;
+    height: 8vh;
+}
+.btn7:hover{
+    background-color: blue;
+    border-color: transparent;
+    color: white;
+}
+.btn8{
+    background-color: #0accbe;
+    color: white;
+    height: 8vh;
+}
+.btn8:hover{
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+}
+
+/* subscribe */
+.page7{
+    background-color:#5d63dc;
+    border-top-right-radius: 110px;
+    height: 60vh;
+    
+}
+@media (max-width: 768px) {
+    .page7{
+      height: 90vh; 
+    }
+}
+.input{
+    border-radius: 40px;
+    height: 8vh;
+    width: 55vh;
+}
+.btn9{
+    background-color: #0accbe;
+    color: white;
+    height: 8vh;
+    margin-left: 120px;
+}
+.btn9:hover{
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+}
+.btn10{
+    background-color: #0accbe;
+    color: white;
+    height: 8vh;
+    width: 26vh;
+    margin-left: 110px; 
+}
+.btn10:hover{
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+}
+@media (max-width: 768px) {
+    .btn10{
+      margin-left: 5px; 
+    }
+  }
+.btn11{
+    margin-left: 48px;
+    background-color: transparent;;
+    color: white;
+    border: 2px solid white;
+    height: 8vh;
+    width: 35vh;
+    
+}
+.btn11:hover{
+    background-color: #6269ec;
+    border-color: transparent;
+    color: white;
+}
+@media (max-width: 768px) {
+    .btn11{
+        margin-left: 5px;  
+    }
+ }
+ .data{
+    margin-top:100px; 
+}
+
+ /* footer */
+ .main-footer{
+    background-color:#5d63dc;
+    height: 50vh;
+    margin-top: -48px;
+}
+@media (max-width: 768px) {
+    .main-footer{
+      height: 130vh; 
+    }
+}
+@media (max-width: 576px) {
+    .main-footer{
+      height: 110vh; 
+    }
+}
+.btn12{
+    background-color: white;
+    color: black;
+    border:1px solid transparent;
+    height: 8vh;
+}
+.btn12:hover{
+    background-color: #0accbe;
+    color: white;
+    border:1px solid transparent;
+}

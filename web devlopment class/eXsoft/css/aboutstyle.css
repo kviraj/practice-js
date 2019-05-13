@@ -1,0 +1,249 @@
+
+/* navbar */
+.dropdown-menu{
+    background-color:#5d63dc;
+    left: -250px;
+    min-width: 50rem;
+}
+@media (max-width: 768px) {
+    .dropdown-menu{
+        min-width: 10rem;
+    }
+}
+
+/* banner */
+.jumbo{
+    background-color:#5d63dc;
+    border-bottom-left-radius: 100px;
+    height: 50vh;
+}
+.heading{
+    margin: 50px 400px;
+}
+@media (max-width: 768px) {
+    .heading{
+        margin: 100px 50px; 
+    }
+}
+.breadcrumb{
+    background-color: transparent;
+    margin: -20px 250px;
+}
+@media (max-width: 768px) {
+    .breadcrumb{
+        margin: -50px 30px;
+    }
+}
+
+/* team of software devlopmers  */
+.page{
+    margin-top: 100px;
+}
+
+/* happy customer */
+.page0{
+    height: 120vh; 
+    background-color: #f9f8f8;
+}
+
+/* creative space */
+.page1{
+    margin-top: 100px;
+}
+.card{
+    padding: 20px;
+}
+.btn{
+    border-radius: 40px;
+}
+.btn1 {
+    background-color: #0accbe;
+    color: white;
+    height: 8vh;
+    padding: 12px;
+}
+.btn1:hover{
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+}
+
+/* our team */
+.page2{
+    margin-top: 100px;
+    background-color: #f9f8f8;
+}
+.box{
+    height: 50vh;
+}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+   
+  }
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active1, .dot:hover {
+    background-color: #0dcac1;
+  }
+
+/* our history */
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    top: -67px;
+    width: 2px;
+    height: 120%;
+    z-index: 400;
+}
+ul.timeline > li {
+    margin: 20px 0;
+    padding-left: 50px;
+    width: 500px;
+   
+}
+ul.timeline > li:before {
+    content: ' ';
+    background: #5c61db;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    box-shadow: 0 0 0 7px #c9cbf0;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+
+/* TESTIMONIALS */
+.page3{
+    background-color:#5d63dc;
+    height: 90vh;
+}
+.avatar {
+    vertical-align: middle;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 0px 5px 6px 4px #eeecec;
+  }
+
+/* investor */
+.investor{
+    opacity: 0.3;
+}
+
+/* subscribe */
+.page7{
+    background-color:#5d63dc;
+    border-top-right-radius: 110px;
+    height: 60vh;
+    
+}
+@media (max-width: 768px) {
+    .page7{
+      height: 90vh; 
+    }
+}
+.input{
+    border-radius: 40px;
+    height: 8vh;
+    width: 55vh;
+}
+.btn9{
+    background-color: #0accbe;
+    color: white;
+    height: 8vh;
+    margin-left: 120px;
+}
+.btn9:hover{
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+}
+.btn10{
+    background-color: #0accbe;
+    color: white;
+    height: 8vh;
+    width: 26vh;
+    margin-left: 110px; 
+}
+.btn10:hover{
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+}
+@media (max-width: 768px) {
+    .btn10{
+      margin-left: 5px; 
+    }
+  }
+.btn11{
+    margin-left: 48px;
+    background-color: transparent;;
+    color: white;
+    border: 2px solid white;
+    height: 8vh;
+    width: 35vh;
+    
+}
+.btn11:hover{
+    background-color: #6269ec;
+    border-color: transparent;
+    color: white;
+}
+@media (max-width: 768px) {
+    .btn11{
+        margin-left: 5px;  
+    }
+ }
+ .data{
+    margin-top:100px; 
+}
+
+ /* footer */
+ .main-footer{
+    background-color:#5d63dc;
+    height: 50vh;
+    margin-top: -48px;
+}
+@media (max-width: 768px) {
+    .main-footer{
+      height: 130vh; 
+    }
+}
+@media (max-width: 576px) {
+    .main-footer{
+      height: 110vh; 
+    }
+}
+.btn12{
+    background-color: white;
+    color: black;
+    border:1px solid transparent;
+    height: 8vh;
+}
+.btn12:hover{
+    background-color: #0accbe;
+    color: white;
+    border:1px solid transparent;
+}
